@@ -3,17 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.sunderland.LiveReport">
+      <class name="org.sunderland.SunderlandUat">
         <methods>
-          <include name="attachmentopenbystaff"/>
-          <include name="closeall"/>
-          <include name="browsersetup"/>
-          <include name="dummy"/>
-          <include name="dummy1"/>
-          <include name="student360"/>
-          <include name="PerformAnyaction"/>
+          <include name="multiLogin"/>
         </methods>
-      </class> <!-- org.sunderland.LiveReport -->
+      </class> <!-- org.sunderland.SunderlandUat -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

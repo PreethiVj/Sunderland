@@ -1,5 +1,6 @@
 package org.sunderland;
 
+import java.awt.RenderingHints.Key;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
@@ -36,17 +37,6 @@ public class LiveReport extends NewBase {
 
 	}
 
-	@BeforeMethod
-	private void dummy() {
-		sysout("--------------------------------------");
-	}
-
-
-	@AfterMethod
-
-	private void dummy1() {
-		sysout("--------------------------------------");
-	}
 
 	@Test(priority = 0)
 	private void login() {
